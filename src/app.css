@@ -66,8 +66,15 @@ button:focus {
 .scrollable-div {
   display: flex;
   justify-content: center;
-  height: 200px;
+  height: 300px;
   width: 100%;
+  
+}
+.inner-wrapper {
+  /* Set the dimensions of the inner wrapper */
+  padding: auto;
+  width: max-content;
+  height: 100%;
   overflow: auto;
 }
 .cardbutton:hover {

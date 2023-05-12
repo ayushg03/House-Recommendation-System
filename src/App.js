@@ -205,7 +205,7 @@ function recommendHouse(){
 
   return (
     <div>
-      <Navbar/>
+    <Navbar/>
     <Hero 
     cName="hero-mid"
     ID="other"
@@ -253,9 +253,8 @@ function recommendHouse(){
       </BasicLayout1>
       
       
-      <BasicLayout1>
-    
-        <div className='scrollable-div'>
+      <div className='scrollable-div'>
+      <div className='inner-wrapper'>
       {tableData.length > 0 && (
         <table className="table">
           {renderBody()}
@@ -263,8 +262,8 @@ function recommendHouse(){
         
       )}
       </div>
-
-    </BasicLayout1>
+      </div>
+     
    
 
    
