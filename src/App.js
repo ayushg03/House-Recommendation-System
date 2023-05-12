@@ -1,10 +1,10 @@
 
 import './app.css';
 import BasicLayout1 from "./BasicLayout1";
-import Swal from 'sweetalert2'
 import Hero from "./Hero";
 import Navbar from "./Navbar";
 import Textfield from "./TextFormField/Textfield"
+import Swal from 'sweetalert2'
 import { useState } from "react";
 
 function App() {
